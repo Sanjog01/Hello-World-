@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textSize="25sp"
+       android:textColor="#abd0bc"
+       android:text="WELCOME TO HELLO WORLD">
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:textColor="#ff0000"
+           android:textSize="25sp"
+           android:text="CLICK ME"
+           >
+
+</LinearLayout>
